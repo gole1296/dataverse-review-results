@@ -1,6 +1,8 @@
 # Review Results PCF Control
 This repository contains the Review Results PCF Control, a custom visualization component designed for Microsoft Power Apps and Dynamics 365. It is a core component of the Reference Architecture: Automated Document Review and Approval.
 
+![Review Results PCF Control](review-results-pcf-control-automated-document-review-and-approval-with-dynamics-365.png)
+
 ## Overview
 The Review Results control replaces the standard Dataverse subgrid with a categorized, high-readability dashboard. It is specifically designed to visualize AI-generated compliance results, allowing users to quickly identify which business rules passed, failed, or remained undetermined.
 
@@ -11,11 +13,17 @@ Performance Metrics: Displays AI confidence levels as decimals for transparency.
 Contextual Logic: Easy access to the underlying AI model logic for auditability. 
 
 ## Configuration & Installation
-1. Prerequisites
+
+### Prerequisites
+![Review Results PCF Control](validation-results-automated-document-review-and-approval-with-dynamics-365.png)
 Dataverse Tables: Ensure the Evaluation Result table is created with the required schema (Result Choice, Rule Name, Confidence, and Category). 
 Environment: A Power Platform environment with PCF for Model-Driven Apps enabled.
 
-2. Implementation Steps
+
+
+### Implementation Steps
+![Review Results PCF Control](pcf-configuration-automated-document-review-and-approval-with-dynamics-365.png)
+
 To add this control to your primary record form (e.g., Contract or Invoice):
 - Add Subgrid: Insert a subgrid on your form filtered to the Active Evaluation Results related table. 
 - Apply Component: In the subgrid properties, select Components > Add Component and choose Review Results Control. 
