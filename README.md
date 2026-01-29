@@ -4,20 +4,19 @@ This repository contains the Review Results PCF Control, a custom visualization 
 ![Review Results PCF Control](review-results-pcf-control-automated-document-review-and-approval-with-dynamics-365.png)
 
 ## Overview
-The Review Results control replaces the standard Dataverse subgrid with a categorized, high-readability dashboard. It is specifically designed to visualize AI-generated compliance results, allowing users to quickly identify which business rules passed, failed, or remained undetermined.
+The Review Results control replaces the standard Dataverse subgrid with a categorized, high-readability dashboard. It is specifically designed to visualize AI-generated compliance results, allowing users to quickly identify which business rules passed, failed, or remained undetermined. It is designed to be embedded directly on a subgrid in a record of a Model Driven app (MDA)
 
 ## Features
-Categorized Grouping: Automatically groups evaluation results by their defined Category lookup. 
-Status Visualization: Provides immediate visual cues for Pass/Fail/Undetermined status choices. 
-Performance Metrics: Displays AI confidence levels as decimals for transparency. 
-Contextual Logic: Easy access to the underlying AI model logic for auditability. 
+- **Categorized Grouping:** Automatically groups evaluation results by their defined Category lookup. 
+- **Status Visualization:** Provides immediate visual cues for Pass/Fail/Undetermined status choices. 
+- **Contextual Logic:** Easy access to the underlying AI model logic for auditability. 
 
 ## Configuration & Installation
 
 ### Prerequisites
 ![Review Results PCF Control](validation-results-automated-document-review-and-approval-with-dynamics-365.png)
-Dataverse Tables: Ensure the Evaluation Result table is created with the required schema (Result Choice, Rule Name, Confidence, and Category). 
-Environment: A Power Platform environment with PCF for Model-Driven Apps enabled.
+- **Dataverse Tables:** Ensure the Evaluation Result table is created with the required schema (Result Choice, Rule Name, Confidence, and Category). 
+- **Environment:** A Power Platform environment with PCF for Model-Driven Apps enabled.
 
 
 
